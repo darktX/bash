@@ -1,0 +1,7 @@
+#!/bin/bash
+grep -v '[a-z]*ll*[a- 
+
+
+-c 'lady' London.dat
+grep -c 'clay' London.dat
+#sort -r -n -t: -k 3 dane2.txt>wynik2.dat
