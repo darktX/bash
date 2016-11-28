@@ -20,7 +20,7 @@ echo ${tab3[i]}
 done
 elif [ $flag == true ] ; then
 for ((i=0; $i<8; i++)) ; do
-wynik1=$[wynik1 + tab2[$i]]
+wynik1=$[wynik1 + tab1[$i]]
 done
 for ((i=0; $i<8; i++)) ; do
 wynik2=$[wynik2 + tab2[$i]]
